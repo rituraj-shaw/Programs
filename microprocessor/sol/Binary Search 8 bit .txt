@@ -1,0 +1,78 @@
+.data
+array byte 10 DUP(?)
+num byte ?
+first byte 0
+middle byte 0
+last byte 0
+msg1 byte " Enter 10 Number in Array : ",0
+msg2 byte " Enter Number to Find: ",0
+msg3 byte " Found ",0
+msg4 byte " Not Found ",0
+
+.code
+main proc
+call clrscr
+
+call crlf
+mov edx,offset msg1
+call writestring
+call crlf
+mov edx,offset array
+mov ecx,lengthof array
+mov esi,0
+L1:
+call readint
+mov array[esi],al
+inc esi
+loop L1
+
+call crlf
+mov edx,offset msg2
+call writestring
+call readint
+mov num,al
+
+mov al,lengthof array
+add al,first
+mov bl,2
+div bl
+mov middle,al
+mov bl,first
+.while bl <= last
+movzx si,middle
+mov al,num
+.if array[si] < al
+mov al,middle
+add al,1
+mov first,al
+mov al,num
+
+.elseif array[si] == al
+mov edx,offset msg3
+call writestring
+call crlf
+jmp e
+
+.else
+
+mov al,middle
+sub al,1
+mov last,al
+add al,first
+mov bl,2
+div bl
+mov middle,al
+.endif
+.endw
+
+
+mov edx,offset msg4
+call writestring
+call crlf
+
+
+e:
+exit
+main endp
+
+end main

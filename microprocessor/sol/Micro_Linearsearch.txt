@@ -1,0 +1,24 @@
+.MODEL SMALL
+.DATA 
+ARRAY DB 00H, 01H, 02H, 03H
+
+.code
+    MOV BX, OFFSET ARRAY
+    MOV DS, AX
+    MOV AX, 4C00H
+    MOV CX, 42H
+    
+
+SEARCH:
+   MOV AL, [BX]
+   CMP AL,[MINIMUM]
+   JNB NoSwap
+   MOV [MINIMUM], AL
+
+
+NOSWAP:
+   INC BX
+   MOV AL, MINIMUM
+   MOV AX, 4C00H
+
+END

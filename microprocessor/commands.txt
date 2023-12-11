@@ -1,0 +1,9 @@
+paste in masm /bin
+open cmd 
+cd masm/bin
+ml xyz.asm
+open dosbox
+mount C c:\
+c:\
+cd masm/bin
+cv xyz.exe

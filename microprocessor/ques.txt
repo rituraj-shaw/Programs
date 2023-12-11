@@ -1,0 +1,21 @@
+Prog 2 : WAP to perform 8 bit addition using 16 bit instruction mode.
+Prog 3 : WAP to perform 16 bit addition using 16 bit instruction mode.
+Prog 4 : WAP to perform 32 bit addition using 16 bit instruction mode.
+Porg 5 : WAP to perform 8 bit subtraction using 16 bit instruction mode.
+Prog 6 : WAP to perform 16 bit subtraction using 16 bit instruction mode.
+Prog 7 : WAP to perform 32 bit subtraction using 16 bit instruction mode.
+Prog 8 : WAP to swap the 1st and 4th element of an array containing 5 word sized elements
+Prog 9 : Write a program to perform 8 bit BCD addition.
+Prog 10 : Write a program to perform 16 bit BCD addition.
+Prog 11 : Write a program to perform 16 bit BCD Subtraction.
+Prog 12 : Write a program to perform 8 bit BCD subtraction.
+Prog 13 : Write a program to perform 32 bit BCD addition.
+Prog 14 : Write a program to perform 32 bit BCD Subtraction
+Prog 15 : Write a program to perform 8 bit multiplication.
+Prog 16 : WAP to implement 16 bit multiplication.
+Prog 17 : Write a program to perform 8 bit division.
+Prog 18 : Write a program to perform 16 bit division.
+Prog 19 : WAP to convert 16 bit binary content of AX into 4 digit ASCII character string.
+Prog 20 : Wap to perform Binary to ASCII conversion.
+Prog 21 : Wap to perform ASCII to binary conversion
+Prog 22 : Wap to implement linear search.

@@ -1,0 +1,42 @@
+q1 Create an HTML page that shows your CV. It should have following Sections :
+1. Name, Photograph and Address ( on Top, separated by a horizontal line, Name should be in bold, Address in italics) 
+2. Academic Qualification in tabular form
+3. Course Details (Paragraph Form)
+4. Hobbies in unordered list
+5. Plans/Goals
+
+q2 Create a form using HTML and CSS that takes data about a pet. The form must be well designed and should have text boxes that accept the pet’s name, age, weight, type, and what it likes most.
+
+q3 Create a plain HTML page for B.Sc. Hons CS course, mentioning details like fee, eligibility criteria, papers with names and credits, and future possibilities after the course.
+
+q4 Explore and Write short note on the following network tools :
+
+a. ipconfig
+b. ping
+c. telnet
+d. ssh
+e. tracert/traceroute
+With the help of ping, check if you are connected to other systems of your network and find the route to connect to that system using tracert. Explore netstat command and list all the processes which are using ports for TCP protocol.
+Display your systems IP Address, Subnet mask using ipconfig, and find out the following :
+a.    class of this IP address
+b.    Host id
+e.    Maximum no. of subnets and subnet address of your host
+.   
+In a word file paste the screenshots and write the answers.
+
+q5 Using HTML and CSS, create a webpage with a paragraph written on it and under which 9 buttons are placed in a 3X3 grid. The first row is for buttons labeled with colors names Red, Green, and Blue, the second row with numbers 10, 20, 30, and the third row with different font names. Click event of each of the buttons should make the appropriate change in the style of paragraph.
+
+q6 Create an HTML page with the sole purpose to show multiplication tables of 2 to 10 (row-wise)  created by JavaScript. Initially, the page is blank. With help of set Interval function print a row every 5 seconds in different colors and increasing font size.
+
+q7 Write programs as given in attached image
+
+q8 Use the HTML created in practical 2/ At the submission of this form create a Pet object in JavaScript filled with these values and log that object and equivalent JSON on the console.
+
+q9 In the HTML Page created in practical 3 , add a button on the bottom of page. This button on clicking should redesign the page using jquery. Refer to 8th practical in the guidelines
+
+q10 Create an HTML page for an image gallery which shows the use of BOOTSTRAP to rearrange
+and resize its contents on resizing the browser.
+
+q11 Create an HTTP server using Node.js which handles requests on port 10000 or a free port  beyond 10000. Modify the server in such a way that opening localhost:10000 will display “Hello  world, This is my Node.js server” on browser.
+
+q12 Create index.html file containing two forms for SignIn and SignUp. Submitting SignIn form  should search for credentials in mysql database using server created in previous practical. On  successful signin, a welcome page should be displayed. Submitting SignUp form should insert  new entry for credentials in mysql database using server created in previous practical. On  successful signup, user should be returned back to index.html.

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function swap(arr, index1, index2) {
+          var temp = arr[index1];
+          arr[index1] = arr[index2];
+          arr[index2] = temp;
+        }
+
+        function bubbleSort(arr) {
+          var n = arr.length;
+          var swapped;
+        
+          do {
+            swapped = false;
+        
+            for (let i = 0; i < n - 1; i++) {
+              if (arr[i] > arr[i + 1]) {
+                swap(arr, i, i + 1);
+                swapped = true;
+              }
+            }
+          } while (swapped);
+          
+          document.write(arr1);
+        }
+        
+        var num = parseInt(prompt("Enter number of values you need in an array:"));
+        var arr1 = []
+        for (var i=0; i<num; i++){
+          var val = parseInt(prompt("Enter number of values you need in an array:"));
+          arr1.push(val);
+        }
+        bubbleSort(arr1);
+    </script>
+</body>
+</html>

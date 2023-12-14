@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 50%;
+    border-radius: 5%;
+    background: rgba(76, 175, 80, 0.3);
+    border: 1px solid black;
+    border-width: 2px;
+}
+h1 {
+    text-align: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 20px;
+    
+
+    border: 1px solid blue;
+}
+.input-box{
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.input-box #name{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 54);
+}
+.input-box #age{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 54);
+}
+.input-box #weight{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 54);
+}
+.input-box #type{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 54);
+}
+.input-box #likes{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 54);
+}
+.input-box ::placeholder{
+    color: black;
+    padding-left: 5px;
+}
+.mf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 45px;
+    background-image: url(cutest-pet-puppy-dog-image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 45px;
+    border: 1px solid black;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 40%;
+}
+
+button {
+    height: 40px;
+    border-radius: 5px;
+    background-color: plum;
+}

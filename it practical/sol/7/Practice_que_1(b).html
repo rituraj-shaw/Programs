@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Que1 part(a)</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Enter a number:"));
+        function prime_comp(a)
+        {
+          var c = 0;
+          for (var i = 1; i <= a; i++) {
+            if (a % i == 0) {
+              c++;
+            }
+          }
+          if(c==2){
+            var t1 = 0;
+            var t2 = 1;
+            var nextTerm = 0;
+            for (var i = 1; i <= a; ++i) {
+              if(i == 1) {
+                  document.write(t1, " ");
+                  continue;
+              }
+              if(i == 2) {
+                  document.write(t2," ");
+                  continue;
+              }
+              nextTerm = t1 + t2;
+              t1 = t2;
+              t2 = nextTerm;
+              
+              document.write(nextTerm," ");
+            }
+          }
+          else{
+            var factorial = 1;
+            for(var i = 1; i <= a; ++i) {
+              factorial *= i;
+            }
+            document.write(factorial);
+          }
+        }
+        prime_comp(a);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>

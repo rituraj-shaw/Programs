@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: tan;
+}
+.image{
+    float: left;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid black;
+}
+.text{
+    padding-top: 15px;
+    margin-left: 70px;
+    padding-left: 70px;
+    text-align: left;
+    font-family: serif;
+}
+.text h5{
+    padding-bottom: 3px;
+}
+.text a{
+    color: black;
+}
+.acad h2{
+    padding-top: 20px;
+    font-style: normal;
+}
+.tb{
+    padding-top: 2px;
+    font-style: normal;
+}
+.row{
+    text-align: center;
+    font-style: normal;
+}
+.course h2{
+    padding-top: 20px;
+    font-style: normal;
+}
+.p{
+    font-style: normal;
+}
+.hobbies h2{
+    padding-top: 20px;
+    font-style: normal;
+}
+.hobbies ul{
+    padding-top: 2px;
+    font-style: normal;
+}
+.plans h2{
+    padding-top: 20px;
+    font-style: normal;
+}
+.plans ul{
+    padding-top: 2px;
+    font-style: normal;
+}

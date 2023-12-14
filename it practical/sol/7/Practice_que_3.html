@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">List King</h1>
+    <h2>Buy Groceries</h2>
+    <ul>
+        <li id="one"><em>Fresh</em>figs</li>
+        <li id="two">Pine nuts</li>
+        <li id="three">Honey</li>
+        <li id="four">Vineger</li>
+    </ul>
+    <script>
+        var listItem3 = document.getElementById('three');
+        var elText = listItem3.firstChild.nodeValue;
+        elText = elText.replace( 'Honey', 'Honey Bee'); 
+        listItem3.firstChild.nodeValue = elText;
+      </script>
+</body>
+</html>
